@@ -56,7 +56,7 @@ if [ -f "requirements.txt" ]; then
 else
     cat << 'EOF' > requirements.txt
 discord.py>=2.3.2
-pylxd>=5.0.0
+pylxd>=2.2.0
 requests>=2.31.0
 psutil>=5.9.1
 aiohttp>=3.9.1
